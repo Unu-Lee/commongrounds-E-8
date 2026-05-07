@@ -1,1 +1,1 @@
-web: gunicorn commongrounds.wsgi
+web: python manage.py migrate && gunicorn commongrounds.wsgi
